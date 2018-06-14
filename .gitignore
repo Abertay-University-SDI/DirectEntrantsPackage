@@ -1,4 +1,13 @@
+# Windows temp files
 ~$*.docx
-*.sdf
+
+# Visual Studio Folder Ignores
+Debug/
+Release/
 .vs/
+
+# Visual Studio SDF database file
+*.sdf
+
+# Temp Files we dont care about
 ~*
