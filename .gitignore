@@ -1,6 +1,9 @@
 # Windows temp files
 ~$*.docx
 
+#Visual Studio temp files
+*.opendb
+
 # Visual Studio Folder Ignores
 Debug/
 Release/
