@@ -1,14 +1,8 @@
-This folder contains a single Visual Studio Solution with multiple projects, one for each class, showing a finished example of the class its named after.
+*** Instructions ***
 
-Classes are as follows:
-
-1 - CreatingVSProject
-2 - IntroToC++
-3 - CreatingVariables
-4 - HeaderFiles
-5 - Pointers
+This folder contains eight different Visual Studio Solution, one for each worksheet. Inside each solution, there are multiple projects to show each numbered tutorial in the worksheets. 
 
 To compile a specific project, right click it in the Solution Explorer in Visual Studio and select, Set as StartUp Project.
 
 Press F5 to compile and Run.
-
+		
