@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A4BCFD40-2FF4-4AC8-896F-348DD73C1AF7}</ProjectGuid>
-    <RootNamespace>My3SwimmingPool</RootNamespace>
+    <ProjectGuid>{1F7FEBE9-6E69-4074-A09C-E56306EF9E2A}</ProjectGuid>
+    <RootNamespace>My31DivisionCalculator</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

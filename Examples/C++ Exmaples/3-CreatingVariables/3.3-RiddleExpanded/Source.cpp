@@ -15,6 +15,20 @@ int main()
 	cout << "Kits, cats, sacks, and wives," << endl;
 	cout << "How many were going to St. Ives?" << endl;
 
+	// Create values
+	int myself = 1;
+	int man = 1;
+	int wives = 7;
+	int sacks = 7;
+	int cats = 7;
+	int kittens = 7;
+
+	// Calculate answer
+	int result = myself + man + wives*sacks*cats*kittens;
+
+	// Print result
+	cout << endl << "The result of the riddle is " << result << endl;
+
 	// Wait for input from the user
 	cin.get();
 

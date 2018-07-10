@@ -6,16 +6,14 @@ using namespace std;
 
 int main()
 {
-	// Create the input variables
-	int firstInput = 0;
-	int secondInput = 0;
+	// Create the input variable
+	int userInput = 0;
 
 	// Get the input and save it
-	cin >> firstInput;
-	cin >> secondInput;
+	cin >> userInput;
 
 	// Output result
-	cout << "First input " << firstInput << " plus the second input " << secondInput << " is " << firstInput + secondInput;
+	cout << "The input we have given is " << userInput;
 
 	// End main
 	return 1;
