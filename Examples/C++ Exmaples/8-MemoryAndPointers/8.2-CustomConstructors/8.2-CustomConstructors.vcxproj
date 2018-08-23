@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{584E6D97-B68C-421E-800D-0983463A1800}</ProjectGuid>
-    <RootNamespace>My81VehicleClass</RootNamespace>
+    <ProjectGuid>{B948F2C0-EA78-446E-BC8D-F6C10AF00190}</ProjectGuid>
+    <RootNamespace>My82CustomConstructors</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Vehicle.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
