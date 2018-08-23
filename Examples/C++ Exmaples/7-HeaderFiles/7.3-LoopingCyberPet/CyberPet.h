@@ -43,13 +43,3 @@ private:
 	int tired;		// An int to describe tiredness
 	string name;	// A string to contain the name
 };
-
-// Replace SOMETHING with a unique name
-// In the case of the CyberPet class it could be CYBER_PET
-
-#ifndef SOMETHING	// If SOMETHING is not defined by the compiler
-#define SOMETHING	// Define SOMETHING in the compiler
-
-// Our code here
-
-#endif				// End the define
