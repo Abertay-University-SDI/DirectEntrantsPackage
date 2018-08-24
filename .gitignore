@@ -14,3 +14,6 @@ Release/
 
 # Temp Files we dont care about
 ~*
+
+# Java workspace folders
+*.metadata
