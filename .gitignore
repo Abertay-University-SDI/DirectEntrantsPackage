@@ -17,3 +17,4 @@ Release/
 
 # Java workspace folders
 *.metadata
+*.recommenders
