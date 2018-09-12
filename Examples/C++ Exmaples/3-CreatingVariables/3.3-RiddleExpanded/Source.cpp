@@ -24,7 +24,7 @@ int main()
 	int kittens = 7;
 
 	// Calculate answer
-	int result = myself + man + wives*sacks*cats*kittens;
+	int result = myself + man + wives + wives*sacks + wives*sacks*cats + wives*sacks*cats*kittens;
 
 	// Print result
 	cout << endl << "The result of the riddle is " << result << endl;
