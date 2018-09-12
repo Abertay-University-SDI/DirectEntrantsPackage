@@ -64,6 +64,7 @@ int main()
 		cin >> inputTwo;
 
 		cout << "Please input the operation you want to perform: " << endl;
+		cin >> inputThree;
 
 		// Check if inputOne or inputTwo is zero
 		if (inputOne == -1)
