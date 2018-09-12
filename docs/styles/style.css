@@ -1,0 +1,144 @@
+html {
+  overflow-y: scroll;
+}
+
+ul.navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.normal{
+	font-family:"Open Sans";
+}
+
+li.navigation-bar {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+
+li.navigation-bar:last-child {
+    border-right: none;
+}
+
+li.navigation-bar a {
+	font-family:"Open Sans";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+li.navigation-bar a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.active:hover{
+	background-color:green;
+}
+
+th.home{
+	width: 50%;
+	padding: 0px 20px;
+	text-align:left;
+	font-family:"Open Sans";
+}
+
+td.home {
+	width: 50%;
+	padding: 0px 20px;
+}
+
+td.worksheettd{
+	width: 33%;
+	height:100%;
+	padding: 20px 20px;
+}
+
+p{
+	font-family:"Open Sans";
+}
+
+p.padding{
+	padding: 0px 20px;
+}
+
+p.paddingcenter{
+	padding: 0px 20px;
+	text-align: center;
+}
+
+h2{
+	font-family:"Open Sans";
+	font-size:300%;
+	text-align:center;
+	font-weight:bold;
+}
+
+h3{
+	font-family:"Open Sans";
+	text-align:center;
+	font-weight:bold;
+}
+
+h1{
+	font-family:"Open Sans";
+	text-align:center;
+	text-decoration:underline;
+}
+
+.box{
+	background-color:#ADD8E6;
+	padding:20px;
+	height:100%;
+	border-radius:15px;
+}
+
+.homebox{
+	background-color:green;
+	height:100%;
+	width:100%;
+}
+
+.buttonwrapper{
+	text-align:center;
+}
+
+.packagebox{
+	border-radius: 15px;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	margin:20px 20px;
+}
+
+.downloadbutton{
+	background-color:#DCDCDC;
+	border-radius:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:black;
+	text-align:center;
+	display:inline-block;
+	cursor:pointer;
+	padding:10px 20px;
+	font-size:16px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.downloadbutton:hover{
+	background-color:Gray;
+	color:white;
+}
