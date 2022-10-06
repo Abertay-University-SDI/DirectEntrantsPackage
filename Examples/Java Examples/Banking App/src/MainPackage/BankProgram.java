@@ -36,7 +36,7 @@ public class BankProgram {
 	    	{
 	    	case "Create":
 	    		// Create account and print completed message after
-	    		account = CreateNewAccount();
+	    		account = CreateNewAccount(scan);
 	    		System.out.println("Your new account has been created.");
 	    		break;
 	    	case "Destroy":
@@ -91,13 +91,12 @@ public class BankProgram {
 	    		break;
 	    	}
     	}
+    	
+    	scan.close();
     }
     
-    static ExtendedAccount CreateNewAccount()
+    static ExtendedAccount CreateNewAccount(Scanner scan)
     {
-    	// Create instance of the scanner for user input
-		Scanner scan = new Scanner(System.in);
-    	
 		// Ask for account ID and save
     	System.out.print("Please enter an Account ID:");
     	int ID = Integer.valueOf(scan.nextLine());
